@@ -17,7 +17,7 @@ function Counter() {
     dispatch({ type: "reset", payload: (state.count = 0) });
   }
 
-  function handleSet() {
+  function handleSetValue() {
     dispatch({ type: "setValue", payload: parseInt(state.value) });
   }
 
@@ -42,12 +42,12 @@ function Counter() {
             <button onClick={handleIncrement}>Increment</button>
             <button onClick={handleDecrement}>Decrement</button>
           </div>
-          <div className="reset">
+          <div className="counter__btns">
             <button onClick={handleReset}>Reset</button>
           </div>
           <div className="input">
             <input type="number" value={state.value} onChange={handleInput} />
-            <button onClick={handleSet}>SetValue</button>
+            <button onClick={handleSetValue}>SetValue</button>
           </div>
         </div>
       </div>

@@ -61,7 +61,7 @@ button:hover {
   justify-content: space-between;
 }
 .nav p {
-  color: var(--primary100);
+  color: var(--aqua);
   cursor: pointer;
 }
 
