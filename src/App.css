@@ -1,41 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+:root {
+  --white: #fff;
+  --black: #000;
+  --body-bg: #0b0c11;
+  --primary100: #67fcf1;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  font-family: "", sans-serif;
+  background-color: var(--body-bg);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+
+button {
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--body-bg);
+  border: 1px solid var(--primary100);
+  color: var(--white);
+  padding: 12px 16px;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+button:hover {
+  background-color: var(--primary100);
+  border: 1px solid var(--white);
+  color: var(--body-bg);
+  transition: 1s;
 }
 
-.read-the-docs {
-  color: #888;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav p {
+  color: var(--primary100);
+  cursor: pointer;
+}
+
+.nav p:hover {
+  border-bottom: 1px solid var(--white);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
 }
