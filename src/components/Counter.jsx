@@ -35,6 +35,7 @@ function Counter() {
           <p>Return to Landing Page</p>
         </Link>
       </div>
+      
       <div className="center">
         <div className="counter__card">
           <h1>{state.count}</h1>

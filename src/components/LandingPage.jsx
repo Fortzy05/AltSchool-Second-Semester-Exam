@@ -16,9 +16,12 @@ const LandingPage = () => {
         <div className="logo">
           <img alt="AltSchool-Logo" src={AltSchoolLogo} />
         </div>
+
         <div className="center">
           <div className="landing__page__container">
-            <h1 className="h1_styling">WELCOME TO MY COUNTER APPLICATION</h1>
+            <h1>
+              WELCOME <span>TO MY COUNTER APPLICATION</span>
+            </h1>
             <Link to="/counter">
               <button className="">
                 Navigate to Counter
