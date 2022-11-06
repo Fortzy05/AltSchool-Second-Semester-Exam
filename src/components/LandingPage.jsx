@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/LandingPage.css";
 import { Link } from "react-router-dom";
 import AltSchoolLogo from "../images/AltSchoolLogo.png";
-import { SEO } from "../exports/Exports";
+import { SEO } from "../Exports/Exports";
 
 const LandingPage = () => {
   return (

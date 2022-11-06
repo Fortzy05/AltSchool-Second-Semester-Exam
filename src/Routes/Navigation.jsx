@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Counter, LandingPage, ErrorPage } from "../exports/Exports";
+import { Counter, LandingPage, ErrorPage } from "../Exports/Exports";
 
 const Navigation =() => {
   return (
