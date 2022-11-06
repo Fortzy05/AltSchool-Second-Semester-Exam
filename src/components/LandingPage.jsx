@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AltSchoolLogo from "../images/AltSchoolLogo.png";
 import { SEO } from "../exports/Exports";
 
-const Home = () => {
+const LandingPage = () => {
   return (
     <>
       <SEO
@@ -12,15 +12,18 @@ const Home = () => {
         description={"AltSchool Africa Second Semester Project"}
         name={"Omorodion Fortune"}
       />
-      <div className="home">
+      <div className="landing_page">
         <div className="logo">
           <img alt="AltSchool-Logo" src={AltSchoolLogo} />
         </div>
         <div className="center">
-          <div className="landing_page">
-            <h1>WELCOME TO MY COUNTER APPLICATION</h1>
+          <div className="landing__page__container">
+            <h1 className="h1_styling">WELCOME TO MY COUNTER APPLICATION</h1>
             <Link to="/counter">
-              <button>Check it out!</button>
+              <button className="">
+                Navigate to Counter
+                <i className="large arrow right icon"></i>
+              </button>
             </Link>
           </div>
         </div>
@@ -29,4 +32,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandingPage;

@@ -9,15 +9,26 @@
   user-select: none;
 }
 :root {
-  --white: #fff;
-  --black: #000;
-  --body-bg: #0b0c11;
-  --primary100: #67fcf1;
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: 'Oxygen mono', monospace;
+  --sans: Oxygen, sans-serif;
 }
 
+
 body {
-  font-family: "", sans-serif;
-  background-color: var(--body-bg);
+ padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
 }
 
 a {
@@ -29,16 +40,18 @@ a {
 button {
   font-family: "Noto Sans", sans-serif;
   background-color: var(--body-bg);
-  border: 1px solid var(--primary100);
-  color: var(--white);
+  border: 1px solid var(--aqua);
+  color: var(--aqua);
   padding: 12px 16px;
   cursor: pointer;
+  gap: 10px;
+  margin: 0 auto;
 }
 
 button:hover {
-  background-color: var(--primary100);
+  background-color: var(--plum);
   border: 1px solid var(--white);
-  color: var(--body-bg);
+  color: var(--);
   transition: 1s;
 }
 
@@ -60,5 +73,5 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70%;
+  height: 50%;
 }

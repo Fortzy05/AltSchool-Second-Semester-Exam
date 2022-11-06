@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/ErrorPage.css";
 
-function ErrorFallback({ error }) {
+const ErrorFallback = ({ error }) => {
   return (
     <div className="center">
       <div className="error__boundary" role="alert">

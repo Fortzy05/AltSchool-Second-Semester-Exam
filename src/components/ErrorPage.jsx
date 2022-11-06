@@ -6,15 +6,15 @@ import ErrorImage from "../images/ErrorImage.png";
 
 const ErrorPage = () => {
   return (
-    <div className="error">
+    <div className="">
       <div className="logo nav">
         <img alt="AltSchool-Logo" src={AltSchoolLogo} />
         <Link to="/">
           <p>Home</p>
         </Link>
       </div>
-      <div className="center">
-        <div className="error__card">
+      <div className="">
+        <div className="">
           <img alt="Error-Img" src={ErrorImage} />
           <h3>Something went wrong!</h3>
         </div>

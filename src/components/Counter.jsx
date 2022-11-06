@@ -32,20 +32,20 @@ function Counter() {
       <div className="logo nav">
         <img alt="AltSchool-Logo" src={AltSchoolLogo} />
         <Link to="/">
-          <p>Return to Home</p>
+          <p>Return to Landing Page</p>
         </Link>
       </div>
       <div className="center">
         <div className="counter__card">
           <h1>{state.count}</h1>
-          <div className="">
+          <div className="counter__btns">
             <button onClick={handleIncrement}>Increment</button>
             <button onClick={handleDecrement}>Decrement</button>
           </div>
           <div className="reset">
             <button onClick={handleReset}>Reset</button>
           </div>
-          <div className="set__input">
+          <div className="input">
             <input type="number" value={state.value} onChange={handleInput} />
             <button onClick={handleSet}>SetValue</button>
           </div>
