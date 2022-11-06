@@ -28,7 +28,7 @@
   }
 
   .landing__page__container h1 {
-    font-size: 50px;
+    font-size: 18px;
     color: var(--aqua);
   font-family: var(--sans);
   
@@ -36,10 +36,9 @@
 
   .landing__page__container button {
     padding: 12px 16px;
-    border: 1px solid var(--primary100);
+    border: 1px solid var(--aqua);
     border-radius: 5px;
-    align-items: right;
-    position: absolute;
-    right: 0;
+    
+
   }
 }

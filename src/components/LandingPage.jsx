@@ -20,7 +20,7 @@ const LandingPage = () => {
         <div className="center">
           <div className="landing__page__container">
             <h1>
-              WELCOME <span>TO MY COUNTER APPLICATION</span>
+              WELCOME TO MY COUNTER APPLICATION
             </h1>
             <Link to="/counter">
               <button className="">
